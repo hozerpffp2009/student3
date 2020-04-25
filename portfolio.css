@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color:lightgoldenrodyellow;
+    padding: 20px;
+    font-family: Arial;
+  }
+  
+  
+  .main {
+    max-width: 1000px;
+    margin: 0px auto;
+  }
+
+  h2 {
+      text-align: center;
+      color: blue;
+
+  }
+  
+  h1 {
+    font-size: 50px;
+    color: blue;
+    text-align: center;
+  }
+  
+  .row {
+    margin: 50px -10px;
+  }
+  
+  .row, .column {
+    padding: 8px;
+  float: center;
+  }
+  
+ 
+  .column {
+    width: 700px;
+    height: 100%;
+    background-color: gray;
+   text-align: center;
+  }
+  
+
+ 
+  
+
+  .content {
+    background-color: lightgray;
+    padding: 10px;
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  
+  
+ 
