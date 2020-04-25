@@ -51,6 +51,10 @@
     background-color: lightgray;
     padding: 10px;
   }
+
+  .button {
+    float: right;
+  }
   
   
   @media screen and (max-width: 600px) {
